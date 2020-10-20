@@ -22,12 +22,12 @@
 	}
 
 
-	.side{
+	/*.side{
 	display: block;
 	float: left;
 	width: 96%;
 	margin:2%;
-	}
+	}*/
 
 
 	.centered{
@@ -36,7 +36,20 @@
   top: 50%;
 }
 
-	footer{
+
+header{
+	background-image: url('../images/11upper.jpg');
+	/*background-position-x: center;
+	background-position-y: center;*/
+	display: block;
+	background-repeat: no-repeat;
+	width:100%;
+	height:320px;
+	margin-bottom: 20%;
+}
+
+
+/*	footer{
 	position: relative;
 	margin-top: 10%;
 	display: block;
@@ -44,7 +57,7 @@
 	background-image: url('../images/lower.jpg');
 	width: 100%;
 	height:200px;
-}
+}*/
 
 
 }
@@ -55,8 +68,8 @@
 @media screen and (max-width: 991px) and (min-width: 521px){
    .mymain {
 	display: inline-block;
-	width: 70%;
-	margin: 1%;
+	width: 90%;
+	margin: 5%;
 }
 
 .profileImg{
@@ -73,20 +86,33 @@
 		margin:3%;
 	}
 
-		.side{
+/*		.side{
 	display: block;
 	float: left;
 	width: 96%;
 	margin:2%;
 	}
-
+*/
 	.centered{
   position: absolute;
   left: 20%;
   top: 50%;
 }
 
-	footer{
+
+header{
+	background-image: url('../images/11upper.jpg');
+	/*background-position-x: center;
+	background-position-y: center;*/
+	display: block;
+	background-repeat: no-repeat;
+	width:100%;
+	height:320px;
+	margin-bottom: 10%;
+}
+
+
+/*	footer{
 	position: relative;
 	margin-top: 10%;
 	display: block;
@@ -94,7 +120,7 @@
 	background-image: url('../images/lower.jpg');
 	width: 100%;
 	height:200px;
-}
+}*/
 
 }
 
@@ -141,7 +167,19 @@
 }
 
 
-footer{
+
+header{
+	background-image: url('../images/11upper.jpg');
+	/*background-position-x: center;
+	background-position-y: center;*/
+	display: block;
+	background-repeat: no-repeat;
+	width:100%;
+	height:320px;
+}
+
+
+/*footer{
 	position: relative;
 	margin-top: 10%;
 	display: block;
@@ -150,7 +188,7 @@ footer{
 	width: 100%;
 	height:200px;
 }
-
+*/
 
 }
 
@@ -202,17 +240,17 @@ a:active {
 
 
 
-header{
-	background-image: url('../images/11upper.jpg');
-	/*background-position-x: center;
-	background-position-y: center;*/
-	background-repeat: no-repeat;
-	width:100%;
-	height:320px;
+
+
+
+
+
+footer{
+	position: relative;
+	margin-top: 10%;
+	display: block;
+	color: #fff;
+	background-image: url('../images/lower.jpg');
+	width: 100%;
+	height:200px;
 }
-
-
-
-
-
-
