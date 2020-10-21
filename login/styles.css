@@ -1,0 +1,51 @@
+label{
+  
+  display:block;
+  align-items: center;
+  padding: 7%;
+}
+
+.field{
+	align-items: center;
+}
+
+form {
+    width: 360px;
+     position: absolute;
+  left: 38%;
+  top: 25%;
+}
+
+body
+{
+	background-image: url(bgimg.jpg);
+	 font-family: sans-serif;
+	 font-weight: bold;
+}
+
+
+input{
+	width: 100%;
+}
+
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(122, 61, 32, 1);
+}
+
+input[type=password]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(122, 61, 32, 1);
+}
+
+
+input[type=submit]{
+	margin-top: 8%;
+	height: 2em;
+
+}
+
+input[type=submit]:hover{
+	margin-top: 8%;
+	height: 2em;
+	color: #ffffff;
+	background-color: #80D284;
+}
