@@ -40,7 +40,9 @@ input[type=password]:focus, textarea:focus {
 input[type=submit]{
 	margin-top: 8%;
 	height: 2em;
-
+	background-color: #f1e9c1;
+	border-radius: 1em;
+}
 }
 
 input[type=submit]:hover{
