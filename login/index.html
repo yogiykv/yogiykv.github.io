@@ -6,6 +6,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Login Page</title>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 	<script type="text/javascript" src="script.js"></script>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -16,11 +22,12 @@
 
 <body>
 
+<div class="container">
 
-<section>
+	<section class="col-xs-12 col-sm-12 col-md-7 col-lg-6">
 	<form id="loginPage">
 		  <fieldset>
-					    <legend>Enter your login credentials</legend>
+					    <legend class="text-center">Enter your login credentials</legend>
 		      	<label><input class="field" type='text' id = 'name' name = 'name' placeholder="USERNAME" required></label>
 
 
@@ -30,10 +37,11 @@
     	  </fieldset>
 
     	  			<input type = 'submit' value = "LOG IN" id="LoginSubmit">
+    	  			<a href="#">Forgot password?</a>
     </form>
 </section>
 
-
+</div>
 </body>
 
 
